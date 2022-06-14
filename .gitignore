@@ -1,0 +1,29 @@
+.DS_Store
+
+# data files
+MNIST_DATA
+
+# compiled python files
+*.pyc
+
+.idea/
+
+images/
+plots/
+extended_stats/
+metrics_loss_surface/
+exps/*
+exps_old/
+exps_sgdm/
+exps_backup/
+exps_backup_29jan/
+logs/
+logs_eval/
+results_dir/
+debug_logs/
+apex/
+aa_eval/
+models/
+models_simple/
+deltas/
+nohup.out
