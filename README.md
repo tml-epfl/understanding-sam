@@ -13,16 +13,16 @@ Sharpness-Aware Minimization (SAM) is a recent training method that relies on wo
 
 ## A few quick highlights
 The number of examples over which we maximize (`m`) in m-SAM plays a key role:
-<p align="center"><img src="images/sam_fig1.png" width="700"></p>
+<p align="center"><img src="images/sam_fig1.png" width="900"></p>
 
 We can explain the generalization improvement of 1-SAM (i.e., SAM with `m=1`) on a simple diagonal network:
-<p align="center"><img src="images/sam_diag_nets.png" width="350"></p>
+<p align="center"><img src="images/sam_diag_nets.png" width="450"></p>
 
 We can finetune a standard model with SAM and get significant generalization improvement (which is also explained by the simple diagonal network):
-<p align="center"><img src="images/sam_finetuning.png" width="350"></p>
+<p align="center"><img src="images/sam_finetuning.png" width="450"></p>
 
 m-SAM converges to a global minimum in practice (and to a critical point in theory, as we prove) and this can be harmful for the noisy label setting (although with early stopping, SAM is still better):
-<p align="center"><img src="images/sam_noisy_labels.png" width="350"></p>
+<p align="center"><img src="images/sam_noisy_labels.png" width="450"></p>
 
 
 ## Code

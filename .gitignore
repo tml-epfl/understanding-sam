@@ -8,7 +8,6 @@ MNIST_DATA
 
 .idea/
 
-images/
 plots/
 extended_stats/
 metrics_loss_surface/
